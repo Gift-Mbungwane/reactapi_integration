@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -13,6 +15,27 @@
   }
 }
 
+.flex-right-container {
+  width: 100%;
+}
+
+.p{
+  display: flex;
+  align-self: flex-start;
+}
+
+.submit-button{
+  display: flex;
+  width: 100px;
+  height: 8vh;
+  background-color:#61dafb;
+  border-radius: 10px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +45,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.h1-link {
+display: flex;
+justify-content: center;
+align-items: center;
+align-self: center;
+flex-direction: row;
 }
 
 .App-link {
